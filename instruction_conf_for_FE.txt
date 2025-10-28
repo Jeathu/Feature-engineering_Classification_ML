@@ -1,0 +1,53 @@
+# 1.Création de environnement virtuel
+
+    (windows)
+        - python -m venv venv
+        - venv\Scripts\activate
+        - python -m pip install --upgrade 
+        - pip numpy pandas matplotlib jupyter ipykernel scikit-learn
+
+
+    (Mac OS / Linux)
+        - python -m venv venv
+        - venv/bin/activate
+        - python -m pip install --upgrade pip numpy pandas matplotlib jupyter ipykernel scikit-learn
+
+
+## Pour créer u fichier requairements.txt et organiser les packages
+    pip freeze > requirements.txt
+
+
+
+## Si vous avez une erreur :
+     Running cells with 'venv(python)' requires the ipykernel package to be installed.
+    
+   - Etape à suivre:
+        - Il faut supprimer le venv 
+        - Il faut réinstaller le venv et suivre les étape de instalation
+
+
+
+
+/* Notes */
+
+# Normalisation python
+- source: 
+https://inside-machinelearning.com/normaliser-donnees-2-minutes/
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+
+
+# méthode de l'élagage arbre de décision
+
+
+# random forest (très utilisé pour selection de variable)
+- source: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+- Bootstrap samples
+- Stacking
+- Approche assembliste
+
+
+
+
+
+
